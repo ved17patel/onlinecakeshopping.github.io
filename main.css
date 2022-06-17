@@ -1,0 +1,142 @@
+/*main grid*/
+.grid-parent
+{
+    display: grid;
+    grid-template-columns: 100%;
+}
+/*heading class start*/
+.heading 
+{
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.heading > ul
+{
+    margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.heading > ul > li
+{
+	display: inline;
+	float: center;
+}
+
+.heading > ul > li:first-child
+{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.heading > ul > li > a
+{
+	padding: 10px;
+	font-size: 16px;
+	color: black;
+    text-decoration: none;
+}
+
+.heading > ul > li > a:hover
+{
+	background-color: lime;
+} /*heading class end*/
+
+/*grid within grid*/
+.items1 
+{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin: auto;
+    width: 50%;
+    font-family: Verdana;
+    font-size: x-small;
+    grid-gap: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*for title in grid within grid*/
+.chk
+{
+    grid-area: 1 / span 3;
+    font-family:'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+}
+
+/*box class for products*/
+.box
+{
+    align-content: center;
+    background-color: darkgrey;
+    margin: auto;
+}
+
+.items1 img
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+    height: 350px;
+    width: 350px;
+}
+
+/*contact us*/
+.contact
+{
+
+    background-color: rgba(63,81,181,255);
+    padding-left: 40px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    color: white;
+}
+
+.contact input
+{
+    padding-right: 150px;
+    margin-bottom: 10px;
+}
+
+.contact #txtarea
+{
+    padding-bottom: 50px;
+}
+
+.contact input:last-child
+{
+    padding-right: 50px;
+}
+
+/*contact info*/
+.info
+{
+    background-color: #251f1f;
+    color: #474342;
+    padding-left: 75px;
+    padding-right: 450px;
+    padding-bottom: 50px;
+}
+
+.info > h3
+{
+    color: white;
+}
+
+#pop
+{
+    font-family:'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#upg
+{
+    font-family:'Trebuchet MS', sans-serif;
+    font-weight: 10;
+    text-align: center;
+}
